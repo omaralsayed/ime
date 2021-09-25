@@ -160,6 +160,7 @@ Icon
 DerivedDataCache/
 Intermediate/
 Saved/
+Binaries/
 
 # Thumbnails
 ._*
