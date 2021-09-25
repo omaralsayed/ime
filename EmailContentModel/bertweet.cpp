@@ -1,4 +1,6 @@
 #include <iostream>
+#include <fstream>
+#include <string>
 #include <stdio.h>
 
 int main() {
@@ -9,7 +11,10 @@ int main() {
   int status;
   char path[PATH_MAX];
 
-  fp = popen("python bertweet.py", "r");
+  std::string text = "text";
+  std::string command = "python bertweet.py --sentiment " + text;
+
+  fp = popen(command.c_str(), "r");
   if (!fp) {
     std::cout << "There was an error executing popen()!" << std::endl;
     return 1;
@@ -22,6 +27,16 @@ int main() {
   if (status == -1) {
     std::cout << "Invalid status code!" << std::endl;
     return 1;
+  }
+
+  std::string sentiment;
+  std::ifstream in("sentiment.txt");
+  if (in.is_open()) {
+    while (getline(in, sentiment)) {
+      std::cout << sentiment;
+    }
+
+    in.close();
   }
 
   return 0;

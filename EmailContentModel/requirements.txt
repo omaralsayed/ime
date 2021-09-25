@@ -1,3 +1,3 @@
 torch==1.9.1
 transformers==4.10.3
-pysentimentiento
+pysentimiento==0.2.5
