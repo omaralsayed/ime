@@ -155,9 +155,9 @@ Build/Android/res/*/*
 Icon
 
 # Cache
-DerivedDataCache/
-Intermediate/
-Saved/
+# DerivedDataCache/
+# Intermediate/
+# Saved/
 
 # Thumbnails
 ._*
