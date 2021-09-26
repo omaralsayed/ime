@@ -1,0 +1,2 @@
+#include "NewStaticMeshComponent.h"
+
