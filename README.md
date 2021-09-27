@@ -2,6 +2,8 @@
 
 ShellHacks 2021 Submission – Interactive Messaging Environment in Unreal Engine
 
+![Cover Image](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/673/481/datas/original.png)
+
 ## Inspiration
 
 In a world where digital communication drives innovation, we find ourselves dreading the idea of sending and receiving emails. A study conducted in 2017, reported that the average email user receives and sends a total of 82 emails per day. Our goal is to bring joy back to our work, by creating a humanized environment dedicated to emailing with intelligent prioritization using natural language processing.
